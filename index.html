@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaCash</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="brand">MaCash</div>
+
+    </nav>
+    <header class="hero">
+
+        <h1 class="hero-heading">Manage your <span style="color: #BCBCBC;">CASH</span> by using Macash</h1>
+
+    </header>
+
+    <div class="container">
+        <div class="bill-box box">
+            <label style="display: block; font-weight: 900; font-size: 20px;" for="Bill Amount">Bill Amount</label>
+            <input type="number" name="billamnt" id="billamnt" placeholder="Enter the bill amount here" required>
+            <div><button id="billbtn" class="buttons">
+                Next
+                </button></div>
+        </div>
+        <p style="color: red; font-size: larger;" id="error-msg"></p>
+        <div id="cash-box" class="box">
+            <label style="display: block; font-weight: 900;  font-size: 20px;" for="cash Amount">Cash Amount</label>
+            <input type="number" name="cashamnt" id="cashamnt" placeholder="Enter the Cash given here">
+            <div><button id="cashbtn" class="buttons">
+                Check
+                </button></div>
+
+        </div>
+
+        <div id="notes-box" class="box">
+            <label style="display: block; font-weight: 900;  font-size: 20px;" for="notes given"> Notes given</label>
+            <br>
+
+            <div id="notesgiven" style="display: block; border:1px solid darkgray; border-radius: 2px;
+            min-height: 50px; min-width: 50px">
+            </div>
+            <br>
+        </div>
+
+    </div>
+
+
+
+    </div>
+    <footer class="footer ">
+        <div class="footer-header ">
+            <h2>Social Handles</h2>
+        </div>
+        <ul class="social-links list-non-bullet ">
+            <li class="list-item-inline "><a style="color: #BCBCBC; " class="link" href=" https://www.linkedin.com/in/sanyam-mehendiratta-2b0640190/ ">LinkedIN</a>
+                <li class="list-item-inline "><a style="color: #BCBCBC; " class="link " href="https://github.com/Sanyam2000-dot ">GitHub</a></li>
+
+                <li class="list-item-inline "><a style="color: #BCBCBC; " class="link " href="https://www.instagram.com/sanyamcodes/ ">Instagram</a></li>
+
+        </ul>
+    </footer>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
